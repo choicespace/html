@@ -1,0 +1,158 @@
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+footer{ background:#031823; padding:60px 0 15px 0px; }
+
+.footer-titles h5 { font-size:18px; }
+.footer-titles h5 img { margin-right:5px; }
+
+.onelines-footer {position: relative; width:40px; height:2px; margin-top: 12px; margin-bottom: 12px;
+  background: #fff; font-size: 0px; }
+
+.footer-details ul li{ margin-bottom:4px; color:#fff; font-size:14px; display:flex; line-height:22px; }
+.footer-details ul li a { color:#fff; display: flex; }
+.footer-details ul li a i { font-size:14px; padding-right:10px; margin-top: 4px; display:flex;  }
+.footer-details ul li i { font-size:14px; padding-right: 10px; display:flex; margin-top: 4px; }
+.footer-details ul li a:hover, .footer-details ul li a:focus{ color:#0b90b1; }
+
+
+.footer-bottom { border-top: 1px solid #154964; padding-top: 15px; margin-top: 20px; }
+.footer-bottom p { color:#fff; font-size:14px; }
+.footer-bottom p a { color:#fff; }
+.footer-bottom p a:hover, .footer-bottom p a:focus { color:#0dbeea; }
+.footer-social-links ul { display: flex; justify-content:end; align-items:center; gap:15px; }
+.footer-social-links ul li a{ color:#fff; font-size:18px; }
+.footer-social-links ul li a:hover, .footer-social-links ul li a:focus { color:#0dbeea; }
+
+
+/*Mobile Footer add New Buttons*/
+.mobile-footer { display:none; }
+
+
+/*Add CSS - 12-01-2024*/
+.footer-dekstop-viwe{ display:inline-block; width: 100%; }
+.footer-accordion.mobile-view { display: none; }
+.footer-quick-third { margin-top:30px; }
+.space-right-sides { padding-right:30px; }
+
+
+/*Tabs CSS*/
+#accordion-footer .card{ background-color:transparent; margin-bottom: 10px; border: 0px; }
+#accordion-footer .card-body{ padding:10px 0 10px 5px; }
+
+
+.footer-accordion-header a{ color:#fff; font-size: 18px; }
+.footer-accordion-header a:after {
+content: '-';
+font-size: 24px;
+position: absolute;
+top: -2px;
+bottom: 0;
+left:auto;
+right:auto;
+padding-left: 10px;
+}
+.footer-accordion-header a.collapsed:after {
+content: '+' 
+}
+
+.footer-social-links ul li.privacy-policy a { font-size:14px; }
+.footer-social-links ul li.terms-conditions a { margin-right:10px; font-size:14px; }
+
+
+
+/*portrait phones, less than 576px Start*/
+@media (max-width: 575.98px) { 
+footer { padding: 20px 0 15px 0px; }
+
+.footer-titles h5 { font-size: 18px; margin-top:10px; }
+.footer-details ul li { margin-bottom: 8px; font-size: 14px; }
+
+.onelines-footer {height: 2px; margin-top: 10px; margin-bottom: 10px; }
+
+.footer-bottom { padding-top: 15px; margin-top: 12px; }
+.copyrights {  text-align: center; margin-top: 10px; }
+.footer-bottom p {  font-size: 14px; }
+.footer-social-links ul { justify-content: center; gap: 10px; }
+
+.footer-social-links ul li.terms-conditions a { margin-right:0px; }
+
+}
+/*portrait phones, less than 576px End*/
+
+
+/*landscape phones, 576px and up Start*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+footer { padding: 40px 0 15px 0px; }  
+.footer-titles h5 { font-size: 18px; margin-top:10px; }
+.footer-details ul li { margin-bottom: 8px; font-size: 14px; }
+
+.onelines-footer {height: 2px; margin-top: 10px; margin-bottom: 10px; }
+
+.footer-bottom { padding-top: 15px; margin-top: 12px; }
+.copyrights {  text-align: center; margin-top: 10px; }
+.footer-bottom p {  font-size: 14px; }
+.footer-social-links ul { justify-content: center; gap: 15px; }
+ }
+
+ /*landscape phones, 576px and up End*/
+
+
+/*Mobile Footer add New Buttons Start*/
+@media (max-width:767.98px) { 
+.mobile-buttons-footer{ margin-bottom:50px; }
+.mobile-footer { position: fixed;  left: 0;  right: 0;  bottom: 0;  background: #fff;  display: block; 
+  z-index: 10; border: 5px solid #fff; }
+.mobile-footer ul { margin: 0px; padding: 0px; display: flex; gap: 4px; }
+.mobile-footer ul li { margin: 0px; padding: 0px;  display: flex;  flex-direction: column;  align-items: center;
+ width: 100%; }
+.mobile-footer ul li a { width: 100%;  text-align: center;  padding: 9px 0px 8px 0px;  color: #fff;  font-weight: 500;
+  font-size: 14px; letter-spacing: 0.3px; }
+.mobile-footer ul li a.whatsapps { background: #30ba45; }
+.mobile-footer ul li a.emails { background: #077f9d; }
+.mobile-footer ul li a span { width: 22px; display: inline-block; margin-right:5px; }
+
+
+/*Add CSS - 12-01-2024*/
+.footer-dekstop-viwe{ display:none;}
+.footer-accordion.mobile-view { display:inline-block; margin-top: 15px; width: 100%; }
+
+.footer-quick-third { margin-top: 12px; }
+
+}
+/*Mobile Footer add New Buttons Start*/
+
+
+
+/*tablets, 768px and up Start*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+footer { padding: 40px 0 15px 0px; }
+.footer-titles h5 { font-size: 18px; }
+.footer-details ul li { margin-bottom:5px; font-size: 13px; line-height: 18px;}
+
+.footer-social-links ul { justify-content: center; gap: 10px; }
+.footer-social-links ul li a { font-size: 16px; }
+
+.copyrights {  text-align: center; margin-top: 10px; }
+
+
+
+.footer-quick-third { margin-top: 16px; }
+
+ }
+ /*  tablets, 768px and up End*/
+
+
+/*desktops, 992px and up Start*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+footer { padding: 40px 0 15px 0px; }
+.footer-titles h5 { font-size: 18px; }
+.footer-details ul li { margin-bottom: 5px; font-size: 14px; }
+.footer-bottom { margin-top: 15px; }
+
+.footer-quick-third { margin-top: 20px; }
+.space-right-sides { padding-right:15px;
+}
+
+ }
+   /* desktops, 992px and up End */

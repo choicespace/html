@@ -1,0 +1,1500 @@
+/*portrait phones, less than 576px Start*/
+@media (max-width: 575.98px) { 
+
+section{ padding:30px 0px }
+h2 { font-size: 22px; line-height: 30px; }
+P { font-size:15px; }
+
+.common-buttons-fill { font-size: 14px; padding: 7px 20px;  margin: 6px 0px 15px 0px; }
+
+/*--------------------------------------------------------------
+# banner Parts
+--------------------------------------------------------------*/
+.main-banner-titles { padding-left:0px; text-align: center;}
+
+.main-banner-titles h1 {
+  margin-bottom: 15px;
+  line-height: 48px;
+  font-size: 40px;
+}
+
+.banner-top-titles {
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.main-banner-titles h1 span {
+  font-size: 26px;
+  line-height: 36px;
+  margin-top: 6px;
+}
+
+.banner-img-space{ padding-right:15px !important; }
+
+/*--------------------------------------------------------------
+# welcome Parts
+--------------------------------------------------------------*/
+.welcome-content { text-align: center; }
+.twolines-left { margin: 12px auto 12px; }
+
+
+/*--------------------------------------------------------------
+# Our Services Parts
+--------------------------------------------------------------*/
+.services-boxs { margin-top:15px; margin-bottom: 15px; padding: 20px 10px 30px 10px; }
+.services-icons img { width:46px; }
+.services-boxs h3 a span { display: inline-block; }
+h3.services-titles a {  font-size: 18px; padding: 10px 0px 8px 0px; line-height:24px; }
+.services-boxs p { font-size:14px; }
+
+.services-boxs-arrow { bottom: -17px; }
+.services-boxs-arrow a { height: 34px; width: 34px; }
+
+/*--------------------------------------------------------------
+# We Work With Technologies Parts
+--------------------------------------------------------------*/
+.technologies-tabs-main { margin-top:15px; }
+.nav-tabs.techno-tabs { gap: 10px; }
+.nav-tabs.techno-tabs .nav-link { font-size:15px; padding: 0px 0px 2px 0px; }
+
+.technologies-tab-box { margin-top: 15px; }
+.technologies-tab-box a span img{ width:40px;}
+.technologies-tab-box a { padding: 10px 10px; font-size: 14px; }
+.technologies-tab-box a span { margin-bottom: 8px; }
+
+/*--------------------------------------------------------------
+# Our Project Development Process Parts
+--------------------------------------------------------------*/
+.process-titles { text-align: center; }
+.process-titles h2 span { display: inline-block; }
+.process-image {  margin-top: 5px; }
+.process-space-bottom {  margin-bottom: 0; }
+.process-space-top { margin-top: 0; }
+.project-process-main {  margin-top:20px; text-align: center; }
+.process-icons { width: 48px; height: 48px;  font-size:24px; margin: 0 auto; }
+.project-process-main h3 { font-size: 18px; padding: 8px 0px 5px 0px; }
+.project-process-main { padding:20px 15px; } 
+.project-process-main p { font-size:14px; }  
+
+
+/*--------------------------------------------------------------
+# Engagement Models Parts
+--------------------------------------------------------------*/
+.engagement-models-box{ padding: 20px 15px; }
+.model-icons img { width: 48px; }
+
+/*--------------------------------------------------------------
+# Our Recent Work Parts
+--------------------------------------------------------------*/
+.portfolio .portfolio-wrap .portfolio-info { padding: 15px 10px; text-align: center; }
+.portfolio-isotope .portfolio-container .portfolio-item { margin-bottom: 15px; }
+.portfolio .portfolio-wrap .portfolio-info h4 { font-size: 16px; }
+
+.buttons-outline { font-size: 14px; margin: 0px 0px 0px 0px;  padding: 7px 20px; }
+
+
+
+/*--------------------------------------------------------------
+# Industries We Serve Parts
+--------------------------------------------------------------*/
+.cust-col {  max-width:100%; }
+.industries-box h4 { font-size: 15px; }
+.industries-box { padding: 15px 6px; }
+.engagement-models-box h3 { font-size: 18px; padding: 10px 0px 8px 0px; }
+.engagement-models-box p { font-size:14px; }
+
+/*--------------------------------------------------------------
+# Our Awards App Maintenance & Support
+&amp; Honors Parts
+--------------------------------------------------------------*/
+.our-awards-box { margin-top: 15px; }
+.our-awards-box a { padding: 10px 10px; }
+.our-awards-box a img { width:80px; }
+
+/*--------------------------------------------------------------
+# Our Happy Clients Parts
+--------------------------------------------------------------*/
+.clients-videos {margin-top: 10px;}
+.client-name h5 { font-size: 16px; }
+
+
+/*--------------------------------------------------------------
+# Our Blogs Parts
+--------------------------------------------------------------*/
+.blog-box-main { margin-top: 15px; }
+.blog-list-details { padding: 15px 15px 20px 15px; text-align: center; }
+.blog-list-details a { padding: 4px 0px 5px 0px; }
+.blog-list-details h6 {font-size: 16px; }
+
+.blog-list-images img { width: 100%; }
+
+
+/*--------------------------------------------------------------
+# Contact Us Parts
+--------------------------------------------------------------*/
+.contact-forms-main { padding:15px; margin-top: 15px; }
+.form-titles h3 { font-size: 20px; margin-bottom: 15px; text-align: center; }
+.contact-forms .form-group { margin-bottom: 12px; }
+
+
+.contact-us-img {border-radius: 10px; margin-right: 0; margin: 20px auto 0; }
+.textarea-heights {  min-height: 70px; }
+
+
+/*Inner Pages CSS Start*/
+/*--------------------------------------------------------------
+# ui/ux Development Pages
+--------------------------------------------------------------*/
+/*Banner*/
+br{ display:none; }
+.services-banner-titles h1 { margin-bottom: 10px; line-height:32px; font-size:24px; font-weight:700; }
+.services-banner-titles p { font-size: 15px;}
+
+/*Our Process UI/UX */
+.main-titles.process-sticky { text-align: center; margin-bottom: 15px; }
+.services-process-box { padding: 20px; margin-bottom: 20px; }
+.services-process-box h3 { font-size: 20px; }
+.services-process-box h3::before { left: -10px; height: 26px; width: 26px; }
+.benefits-titles{ text-align:center; }
+.benefits-text{ text-align:center; }
+.lets-talk-btns { text-align: center; margin-bottom: 10px;}
+
+.benefits-lists ul li { margin-bottom: 10px; }
+
+/*UI/UX Design */
+
+.development-boxs {padding: 20px; margin-top: 20px; text-align: center;}
+.development-boxs h4 { font-size: 20px; line-height: 26px;}
+.development-boxs.devhovers h4::before{ display:none; }
+
+/*FAQs Questions */
+.accordion-develop .card { margin-top: 15px; }
+.accordion-develop { margin-top: 10px; }
+.accordion-header a h6 {font-size: 15px; }
+.accordion-header a { padding: 12px 25px 12px 15px; }
+.accordion-header a::after {
+  font-size: 18px; right: 10px; }
+.accordion-develop .card-body p { line-height: 22px; font-size: 14px; }  
+.business-line ul li { line-height:20px; }
+
+ .our-faqs-questions { padding-bottom: 70px; }
+
+/*Schedule Meeting*/
+.schedule-meeting { bottom: 35px; }
+.schedule-meeting-main { border-radius: 30px; padding: 20px 15px 26px 15px; }
+.schedule-meeting-main h3 { font-size: 20px; line-height: 26px; }
+.schedule-meeting-main p {  padding: 10px 0px 15px 0px; line-height: 22px;}
+.common-buttons-white { font-size: 15px; padding: 6px 20px; }
+
+
+/*Game Design Page*/
+/*--------------------------------------------------------------
+# Top Game Design Services Pages
+--------------------------------------------------------------*/
+
+.technologies-tab-box.game-designs a h4{ font-size:16px; font-weight:600; line-height:22px; }
+
+
+/* Hire Pages Developers */
+/*--------------------------------------------------------------
+# Hire Fullstack Developer Pages
+--------------------------------------------------------------*/
+.hire-pages-banner{ text-align:center; }
+
+.hire-contact-us { margin-bottom:20px; }
+
+.hire-dedicateds {
+  margin-top:20px;
+  text-align: center;
+}
+.hire-dedicateds h3 {
+  font-size: 18px;
+  line-height: 24px;
+  padding: 15px 0px 12px 0px;
+}
+
+
+/* Contact Us Pages */
+/*--------------------------------------------------------------
+# Drop us a line to Start a Project with us
+--------------------------------------------------------------*/
+
+.main-banner-titles h1.banner-main-titles { margin-top: 20px; margin-bottom: 15px; line-height:40px; font-size: 32px; }
+
+.project-contact-main { margin-top: 0px; }
+.project-contact-main::before { display:none;  }
+.contact-bottom { border-bottom:1px solid #e8e8e8; }
+.bottom-bdr-mobile { border-bottom:0px; }
+.contact-links {  padding: 10px 0px; display: block; text-align:center; }
+.rightside-links a { font-size:16px; justify-content: center; }
+.leftside-icons {  font-size:26px;  width:50px; margin: 0 auto; text-align: center; }
+.rightside-links a span.contact-arrow { margin-left: 5px; font-size: 14px; }
+
+.offices-address { margin-top: 20px; }
+.our-offices-address h4 {font-size: 22px; }
+.our-offices-address p { padding: 5px 0px 6px 0px; }
+
+.our-offices-address a {  font-size: 16px; justify-content: center; }
+.our-offices-address { margin-top: 10px;  text-align: center; }
+
+
+/* Careers Pages */
+/*--------------------------------------------------------------
+# Get more than just a Jobs
+--------------------------------------------------------------*/
+.benefits-titles.bestbrands { font-size: 36px; line-height: 48px; margin-bottom: 10px; }
+.vacancy-softsource a.jobtab { font-size: 16px; padding: 15px 45px 15px 15px; }
+.teamwork-only { margin-top: 20px; }
+.image-gallery-box { margin-top: 20px; }
+.vacancy-softsource a.jobtab span { font-size: 14px; }
+.banners-titles { font-size: 18px; padding: 10px 0 0px 0px; }
+
+.vacancy-softsource a.jobtab { display: block; line-height: 20px; padding: 10px 45px 10px 15px; }
+.vacancy-softsource a.jobtab span { font-size: 14px; display: block; margin-top: 5px; }
+.vacancy-softsource a.jobtab::after { font-size: 12px; }
+.cadre-text p { margin-top: 10px; }
+.cadre-text { text-align: center; }
+.image-gallery-box img { width:100%; }
+
+.hire-dedicateds.our-team .model-icons img {width:130px;}
+.card-body.vacancy-description { padding: 15px; }
+.card-body.vacancy-description h4 { font-size: 18px;  margin-bottom: 5px; }
+ul.candidate-details li { padding-left:15px; font-size: 13px;  margin-bottom:2px; margin-left:0px; }
+
+
+/*--------------------------------------------------------------
+# Careers Registration Page
+--------------------------------------------------------------*/
+.registration-main { padding:20px; }
+
+
+/* Thank you Pages */
+/*--------------------------------------------------------------
+# Thank you Parts
+--------------------------------------------------------------*/
+.thankyou-banner-titles h1 { margin-bottom: 10px; line-height: 32px; font-size: 32px;
+    font-weight: 700; }
+.center-checkicons img { width: 70px; }
+.callplease { font-size:15px; }
+
+
+
+/*--------------------------------------------------------------
+# About Us Pages
+--------------------------------------------------------------*/
+.hire-dedicateds.our-team .model-icons.leaders img { width: 100%; }
+.leaders-souece { padding: 20px; text-align: center; }
+.leaders-main { padding-top: 0; }
+.softsouece-amet { font-size: 18px; line-height: 26px; }
+.leaders-souece h5 { margin-top: 20px; font-size: 22px; }
+
+.counter { margin-top: 15px; }
+.counter-count { font-size: 42px; line-height: 50px; }
+.services-process-box h3 { line-height: 30px; }
+.hire-dedicateds {  margin-top: 15px; }
+
+.our-vision { text-align:center; }
+.company-video-icons a { width: 44px;  height: 44px;  font-size: 16px; }
+.hire-dedicateds.our-team h3 {  padding: 15px 0px 0px 0px; }
+.main-titles.remembered { text-align: center; margin-bottom: 20px; }
+.team-says { text-align: center; }
+.company-leaders-main { margin-top: 20px; }
+.feathers-cap-image { margin-top: 15px; }
+
+
+/*--------------------------------------------------------------
+# 404 Error Page
+--------------------------------------------------------------*/
+.error-page-img404 img { width: 140px; }
+.error-page-banner .callplease { font-size: 20px; margin-top: 10px; }
+.requested { font-size: 15px; padding:5px 0px 10px 0px; }
+
+/*--------------------------------------------------------------
+# Our Works Page
+--------------------------------------------------------------*/
+.ourworks-main { padding: 20px 15px 0px 15px; }
+.ourworks-description { padding: 0px 0px 20px 0px; }
+.ourworks-description h2 { font-size: 20px; line-height: 26px; text-align: center; }
+.project-description { padding: 15px; margin-top: 15px; }
+.founder-names h3 {font-size: 16px; line-height: 22px; }
+.founder-image img { width: 50px; }
+.project-description p { line-height:20px; font-weight:400; text-align: center; font-size: 14px; }
+.project-founder { justify-content: center; margin-top: 10px; }
+.founder-names p{ text-align:left; }
+
+/*--------------------------------------------------------------
+# Our Works Details Page
+--------------------------------------------------------------*/
+.next-project-info h2 { font-size: 22px; line-height:40px; margin-bottom: 20px; }
+.project-details p {  font-size: 18px; line-height: 26px; margin-top: 20px; text-align:center; }
+.used-technologies ul li a { padding: 3px 10px; font-size: 12px; }
+.our-work-next-project { height: 200px; }
+.next-project-info .separator { margin: 15px auto 20px auto; }
+.next-project-info h3 { font-size: 18px; }
+.next-project-info h4 { margin-bottom: 0; font-size: 15px; }
+
+.madefors { text-align: center; }
+.used-technologies ul { justify-content:center; }
+.used-techs { margin-top:15px; }
+
+.swiper-button-prev.slide-arrow-left, .swiper-button-next.slide-arrow-right { width:30px; height:30px; font-size:15px; top: 63%; }
+.swiper-button-prev.slide-arrow-left i {top: -1px; left: -1px; }
+.swiper-button-next.slide-arrow-right i { top: -1px; right: -1px; }
+
+.swiper-button-prev.slide-arrow-left { left: 22%; }
+.swiper-button-next.slide-arrow-right { right: 22%; }
+
+
+/*--------------------------------------------------------------
+# Blog main Page
+--------------------------------------------------------------*/
+.blog-list-detail { text-align: center; margin-top: 15px; }
+.blog-list-detail h2 {font-size: 16px; line-height: 22px; }
+.blog-text-ellipsis { height: 48px; -webkit-line-clamp: 2; }
+
+.our-blog-list-box { margin-top:20px; }
+.our-blog-list-box h2 { font-size:15px; line-height: 22px; text-align: center; }
+.blog-navigation { margin-top:30px; }
+
+.blog-navigation ul.pagination {gap: 10px; }
+.blog-navigation ul.pagination li a { font-size: 16px; padding: 5px 12px; }
+.blog-categories { margin-top: 20px; }
+
+.lets-talk-btns.whatwedo{ margin-bottom:0px; }
+.lets-talk-btns.whatwedo .common-buttons-fill { margin:5px 0px 5px 0px; }
+
+.categories-list ul li a { font-size: 14px; }
+
+
+/*--------------------------------------------------------------
+# Blog main Page
+--------------------------------------------------------------*/
+.services-banner-titles.blog-top-titles h1 { line-height: 28px; font-size: 20px; }
+.back-btns { top: -15px; }
+.back-btns a {height: 50px; width: 50px; font-size: 12px; }
+.back-btns a span { padding-right:4px; font-size: 13px; } 
+p.blog-post-dates { font-size: 13px; }
+
+.blog-description-list h2 {font-size: 20px; line-height: 28px; }
+.blog-description-list p { margin: 5px 0 5px 0px; font-size: 14px; }
+.blog-description-list { margin-bottom: 15px; }
+.blog-description-list h3 { font-size: 18px;  line-height: 26px; margin-top: 12px; }
+.blog-main-banner-img { margin: 20px 0px; }
+.blog-description { padding: 0px 5px; }
+
+.blogs-all-items {margin: 10px 0 10px 5px;}
+.blogs-all-items ul li { line-height: 20px; margin-bottom: 5px;  font-size: 13px; }
+.blogs-all-items ul li::before { top: 8px; }
+
+
+/*--------------------------------------------------------------
+# Our Case Studies Page
+--------------------------------------------------------------*/
+.case-studies-box { margin: 25px 0px 5px 0px; text-align: center; }
+.case-studies-box a {font-size: 18px; margin: 2px 0px 5px 0px;  }
+ul.casestudies-technology { gap: 8px; margin-top: 10px; justify-content: center; }
+.casestudies-technology li { padding: 1px 8px; font-size: 11px; }
+
+ul.casestudies-technology.flutters { justify-content:center; }
+
+
+/*--------------------------------------------------------------
+# Our Case Studies Page
+--------------------------------------------------------------*/
+.tagline {font-size: 16px; margin:10px 0px 15px 0px; }
+.project-benefits { margin-top: 30px; }
+.challenges-images { margin-top: 20px; }
+.project-benefits li { font-size: 15px; line-height: 22px; }
+.project-logo img { width: 70px; }
+.project-logo { top: -10px; }
+.project-services ul li { text-align:center; }
+.brief-book { text-align:center; }
+.project-services { text-align:center; }
+.main-titles.project-services h4 { margin-top: 15px; font-size: 20px; }
+.project-services-img { margin-top: 30px; }
+.project-benefits h3 { font-size: 22px; margin-bottom: 15px; text-align: center; }
+
+.results-achieved .main-titles { text-align:center; }
+.achieved-image { margin-top: 22px; }
+.challenges-images .tagline { text-align:center; }
+
+/*--------------------------------------------------------------
+# Dedicated Team Page
+--------------------------------------------------------------*/
+.our-hiring-boxs { padding: 15px 10px;  margin-top: 15px; }
+.our-hiring-boxs h4 { font-size: 18px; }
+.working-days p { font-size: 14px; }
+
+.fact-boxs { margin-top: 15px; }
+.fact-boxs p span {font-size: 24px; }
+.fact-boxs h4 { font-size: 14px; margin-bottom: 5px; line-height: 20px; }
+
+
+
+ }
+
+/*portrait phones, less than 576px End*/
+
+
+
+/*landscape phones, 768px and up Start*/
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+section{ padding:30px 0px }
+h2 { font-size: 24px; line-height: 30px; }
+P { font-size:15px; }
+
+.mgt-top15 {margin-top: 10px !important;}
+
+
+.common-buttons-fill { font-size: 14px; padding: 7px 20px;  margin: 6px 0px 15px 0px; }
+
+/*--------------------------------------------------------------
+# banner Parts
+--------------------------------------------------------------*/
+.main-banner-titles { padding-left:0px; text-align: center;}
+
+.main-banner-titles h1 {
+  margin-bottom: 15px;
+  line-height: 48px;
+  font-size: 42px;
+}
+
+.banner-top-titles {
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.main-banner-titles h1 span {
+  font-size: 26px;
+  line-height: 36px;
+  margin-top: 6px;
+}
+
+.banner-img-space{ padding-right:15px !important; }
+
+
+
+
+/*--------------------------------------------------------------
+# welcome Parts
+--------------------------------------------------------------*/
+.welcome-content { text-align: center; }
+.twolines-left { margin: 12px auto 12px; }
+
+
+/*--------------------------------------------------------------
+# Our Services Parts
+--------------------------------------------------------------*/
+.services-boxs { margin-top:15px; margin-bottom: 15px; padding: 20px 10px 30px 10px; }
+.services-icons img { width:48px; }
+.services-boxs h3 a span { display: inline-block; }
+h3.services-titles a {  font-size: 18px; padding: 10px 0px 8px 0px; line-height:24px; }
+.services-boxs p { font-size:14px; }
+
+.services-boxs-arrow { bottom: -17px; }
+.services-boxs-arrow a { height: 34px; width: 34px; }
+
+/*--------------------------------------------------------------
+# We Work With Technologies Parts
+--------------------------------------------------------------*/
+.technologies-tabs-main { margin-top:15px; }
+.nav-tabs.techno-tabs { gap: 10px; }
+.nav-tabs.techno-tabs .nav-link { font-size:15px; padding: 0px 0px 2px 0px; }
+
+.technologies-tab-box { margin-top: 20px; }
+.technologies-tab-box a span img{ width:40px;}
+.technologies-tab-box a { padding: 10px 10px; font-size: 14px; }
+.technologies-tab-box a span { margin-bottom: 8px; }
+
+/*--------------------------------------------------------------
+# Our Project Development Process Parts
+--------------------------------------------------------------*/
+.process-titles { text-align: center; }
+.process-titles h2 span { display: inline-block; }
+.process-image {  margin-top: 5px; }
+.process-image img { width: 320px; }
+.process-space-bottom {  margin-bottom: 0; }
+.process-space-top { margin-top: 0; }
+.project-process-main {  margin-top:20px; text-align: center; }
+.process-icons { width: 48px; height: 48px;  font-size:24px; margin: 0 auto; }
+.project-process-main h3 { font-size: 18px; padding: 8px 0px 5px 0px; }
+.project-process-main { padding:20px 15px; } 
+.project-process-main p { font-size:14px; }  
+
+
+/*--------------------------------------------------------------
+# Engagement Models Parts
+--------------------------------------------------------------*/
+.engagement-models-box{ padding: 20px 15px; }
+.model-icons img { width: 48px; }
+
+/*--------------------------------------------------------------
+# Our Recent Work Parts
+--------------------------------------------------------------*/
+.portfolio .portfolio-wrap .portfolio-info { padding: 15px 10px; text-align: center; }
+.portfolio-isotope .portfolio-container .portfolio-item { margin-bottom: 15px; }
+.portfolio .portfolio-wrap .portfolio-info h4 { font-size: 16px; }
+
+.buttons-outline { font-size: 14px; margin: 6px 0px 15px 0px;  padding: 7px 20px; }
+
+.portfolio .portfolio-flters li {  font-size: 14px; margin: 2px 1px 2px 1px; }
+.portfolio .portfolio-flters { padding: 20px 0 20px 0; }
+
+/*--------------------------------------------------------------
+# Industries We Serve Parts
+--------------------------------------------------------------*/
+.cust-col {  max-width:100%; }
+.industries-box h4 { font-size: 15px; }
+.industries-box { padding: 15px 6px; }
+.engagement-models-box h3 { font-size: 20px; padding: 10px 0px 8px 0px; }
+.engagement-models-box p { font-size:14px; }
+
+/*--------------------------------------------------------------
+# Our Awards App Maintenance & Support
+&amp; Honors Parts
+--------------------------------------------------------------*/
+.our-awards-box { margin-top: 15px; }
+.our-awards-box a { padding: 10px 10px; }
+.our-awards-box a img { width:80px; }
+
+/*--------------------------------------------------------------
+# Our Happy Clients Parts
+--------------------------------------------------------------*/
+.clients-videos {margin-top: 10px;}
+.client-name h5 { font-size: 16px; }
+
+
+/*--------------------------------------------------------------
+# Our Blogs Parts
+--------------------------------------------------------------*/
+.blog-box-main { margin-top: 15px; }
+.blog-list-details { padding: 15px 15px 20px 15px; text-align: center; }
+.blog-list-details a { padding: 4px 0px 5px 0px; }
+.blog-list-details h6 {font-size: 16px; }
+
+.blog-list-images img { width: 100%; }
+
+
+/*--------------------------------------------------------------
+# Contact Us Parts
+--------------------------------------------------------------*/
+.contact-forms-main { padding:15px; margin-top: 15px; }
+.form-titles h3 { font-size: 20px; margin-bottom: 15px; text-align: center; }
+.contact-forms .form-group { margin-bottom: 12px; }
+
+
+.contact-us-img {border-radius: 10px; margin-right: 0; margin: 20px auto 0; }
+.textarea-heights {  min-height: 70px; }
+
+
+/*Inner Pages CSS Start*/
+/*--------------------------------------------------------------
+# ui/ux Development Pages
+--------------------------------------------------------------*/
+/*Banner*/
+br{ display:none; }
+.services-banner-titles h1 { margin-bottom: 10px; line-height:32px; font-size:24px; font-weight:700; }
+.services-banner-titles p { font-size: 15px;}
+
+.welcome-main-img img { width: 300px; }
+
+/*Our Process UI/UX */
+.main-titles.process-sticky { text-align: center; margin-bottom: 15px; }
+.services-process-box { padding: 20px; margin-bottom: 20px; }
+.services-process-box h3 { font-size: 20px; }
+.services-process-box h3::before { left: -10px; height: 26px; width: 26px; }
+.benefits-titles{ text-align:center; }
+.benefits-text{ text-align:center; }
+.lets-talk-btns { text-align: center; margin-bottom: 10px;}
+
+.benefits-lists ul li { margin-bottom: 10px; }
+.benefits-images img { width: 300px; }
+
+/*UI/UX Design */
+
+.development-boxs {padding: 20px; margin-top: 20px; text-align: center;}
+.development-boxs h4 { font-size: 20px; line-height: 26px;}
+.development-boxs.devhovers h4::before{ display:none; }
+
+/*FAQs Questions */
+.accordion-develop .card { margin-top: 15px; }
+.accordion-develop { margin-top: 10px; }
+.accordion-header a h6 {font-size: 15px; }
+.accordion-header a { padding: 12px 25px 12px 15px; }
+.accordion-header a::after {
+  font-size: 18px; right: 10px; }
+.accordion-develop .card-body p { line-height: 22px; font-size: 14px; }  
+.business-line ul li { line-height:20px; }
+
+ .our-faqs-questions { padding-bottom: 70px; }
+
+/*Schedule Meeting*/
+.schedule-meeting { bottom: 35px; }
+.schedule-meeting-main { border-radius: 30px; padding: 20px 15px 26px 15px; }
+.schedule-meeting-main h3 { font-size: 22px; line-height: 26px; }
+.schedule-meeting-main p {  padding: 10px 0px 15px 0px; line-height: 22px;}
+.common-buttons-white { font-size: 15px; padding: 6px 20px; }
+
+/*Game Design Page*/
+/*--------------------------------------------------------------
+# Top Game Design Services Pages
+--------------------------------------------------------------*/
+.technologies-tab-box.game-designs a h4{ font-size:18px; font-weight:600; line-height:22px; }
+
+
+/* Hire Pages Developers */
+/*--------------------------------------------------------------
+# Hire Fullstack Developer Pages
+--------------------------------------------------------------*/
+.hire-pages-banner{ text-align:center; }
+
+.hire-contact-us { margin-bottom:20px; }
+
+.hire-dedicateds {
+  margin-top:20px;
+  text-align: center;
+}
+.hire-dedicateds h3 {
+  font-size: 20px;
+  line-height: 24px;
+  padding: 15px 0px 12px 0px;
+}
+
+
+/* Contact Us Pages */
+/*--------------------------------------------------------------
+# Drop us a line to Start a Project with us
+--------------------------------------------------------------*/
+.main-banner-titles h1.banner-main-titles { margin-top: 20px; margin-bottom: 15px; line-height:40px; font-size:34px; }
+.project-contact-main {  margin-top: 15px; }
+.project-contact-main::before { display:none;  }
+.contact-bottom { border-bottom:1px solid #e8e8e8; }
+.bottom-bdr-mobile { border-bottom:0px; }
+.contact-links {  padding: 15px 0px; }
+.rightside-links a { font-size:20px; }
+.leftside-icons {  font-size:28px;  width:50px; text-align: left; }
+.rightside-links a span.contact-arrow { margin-left: 5px; font-size: 14px; }
+
+.our-offices-address h4 {font-size: 22px; }
+.our-offices-address p { padding: 5px 0px 6px 0px; }
+
+.our-offices-address a {  font-size: 16px; }
+
+
+/* Careers Pages */
+/*--------------------------------------------------------------
+# Get more than just a Jobs
+--------------------------------------------------------------*/
+.benefits-titles.bestbrands { font-size: 40px; line-height: 58px; margin-bottom: 10px; }
+.vacancy-softsource a.jobtab { font-size: 16px; padding: 15px 45px 15px 15px; }
+.teamwork-only { margin-top: 20px; }
+.image-gallery-box { margin-top: 20px; }
+.vacancy-softsource a.jobtab span { font-size: 14px; }
+
+.cadre-text p { margin-top: 10px; }
+.cadre-text { text-align: center; }
+
+
+/*--------------------------------------------------------------
+# Careers Registration Page
+--------------------------------------------------------------*/
+.registration-main { padding:25px; }
+
+
+/* Thank you Pages */
+/*--------------------------------------------------------------
+# Thank you Parts
+--------------------------------------------------------------*/
+.thankyou-banner-titles h1 { margin-bottom: 10px; line-height: 32px; font-size: 36px;
+    font-weight: 700; }
+.center-checkicons img { width: 75px; }
+.callplease { font-size:15px; }
+
+
+/*--------------------------------------------------------------
+# About Us Pages
+--------------------------------------------------------------*/
+.model-icons.leaders img { width: 100%; }
+.leaders-souece { padding: 20px; text-align: center; }
+.leaders-main { padding-top: 0; }
+.softsouece-amet { font-size: 18px; line-height: 26px; }
+.leaders-souece h5 { margin-top: 20px; font-size: 22px; }
+
+.counter { margin-top: 30px; }
+.counter-count { font-size: 48px; line-height: 60px; }
+.services-process-box h3 { line-height: 30px; }
+.hire-dedicateds {  margin-top: 15px; }
+
+.our-vision { text-align:center; }
+.company-video-icons a { width: 50px;  height: 50px;  font-size: 18px; }
+.hire-dedicateds.our-team h3 {  padding: 15px 0px 0px 0px; }
+.main-titles.remembered { text-align: center; margin-bottom: 20px; }
+.team-says { text-align: center; }
+
+
+/*--------------------------------------------------------------
+# 404 Error Page
+--------------------------------------------------------------*/
+.error-page-img404 img { width: 190px; }
+.error-page-banner .callplease { font-size: 28px; margin-top: 10px; }
+.requested { font-size: 15px; padding:5px 0px 10px 0px; }
+
+/*--------------------------------------------------------------
+# Our Works Page
+--------------------------------------------------------------*/
+.ourworks-main { padding: 20px 15px 0px 15px; }
+.ourworks-description { padding: 0px 0px 20px 0px; }
+.ourworks-description h2 { font-size: 24px; line-height: 32px; text-align: center; }
+.project-description { padding: 15px; margin-top: 15px; }
+.founder-names h3 {font-size: 16px; line-height: 22px; }
+.founder-image img { width: 50px; }
+.project-description p { line-height:22px; font-weight:400; text-align: center; }
+.project-founder { justify-content: center; margin-top: 10px; }
+.founder-names p{ text-align:left; }
+
+/*--------------------------------------------------------------
+# Our Works Details Page
+--------------------------------------------------------------*/
+.next-project-info h2 { font-size: 32px; line-height:40px; margin-bottom: 20px; }
+.project-details p {  font-size: 20px; line-height: 28px; margin-top: 20px; text-align:center; }
+.used-technologies ul li a { padding: 3px 10px; font-size: 12px; }
+.our-work-next-project { height: 240px; }
+.next-project-info .separator { margin: 15px auto 20px auto; }
+.next-project-info h3 { font-size: 22px; }
+.next-project-info h4 { margin-bottom: 0; font-size: 15px; }
+
+.madefors { text-align: center; }
+.used-technologies ul { justify-content:center; }
+.used-techs { margin-top:15px; }
+
+.swiper-button-prev.slide-arrow-left, .swiper-button-next.slide-arrow-right { width:30px; height:30px; font-size:15px; 
+  top: 54%; }
+.swiper-button-prev.slide-arrow-left i {top: -1px; left: -1px; }
+.swiper-button-next.slide-arrow-right i { top: -1px; right: -1px; }
+
+
+/*--------------------------------------------------------------
+# Blog main Page
+--------------------------------------------------------------*/
+.blog-list-detail { text-align: center; margin-top: 20px; }
+.blog-list-detail h2 {font-size: 18px; line-height: 24px; }
+.blog-text-ellipsis { height: 52px; -webkit-line-clamp: 2; }
+
+.our-blog-list-box { margin-top:20px; }
+.our-blog-list-box h2 { font-size: 16px; line-height: 24px; text-align: center; }
+.blog-navigation { margin-top:30px; }
+
+.blog-navigation ul.pagination {gap: 10px; }
+.blog-navigation ul.pagination li a { font-size: 16px; padding: 5px 12px; }
+
+.blog-categories { margin-top: 20px; }
+
+
+/*--------------------------------------------------------------
+# Blog main Page
+--------------------------------------------------------------*/
+.services-banner-titles.blog-top-titles h1 { line-height: 34px; font-size: 26px; }
+.back-btns { top: -15px; }
+.back-btns a {height: 60px; width: 60px; font-size: 13px; }
+.back-btns a span { padding-right: 4px; font-size: 15px; } 
+p.blog-post-dates { font-size: 14px; }
+
+.blog-description-list h2 {font-size: 22px; line-height: 28px; }
+.blog-description-list { margin-bottom: 15px; }
+.blog-description-list h3 { font-size: 18px;  line-height: 26px; margin-top: 12px; }
+.blog-main-banner-img { margin: 20px 0px; }
+.blog-description { padding: 0px 15px; }
+
+
+/*--------------------------------------------------------------
+# Our Case Studies Page
+--------------------------------------------------------------*/
+
+.case-studies-box a {font-size: 18px; margin: 0px 0px 2px 0px; }
+ul.casestudies-technology { gap: 8px; margin-top: 10px; }
+.casestudies-technology li { padding: 1px 8px; font-size: 11px; }
+.case-studies-box { margin: 25px 0px 5px 0px; }
+
+
+ul.casestudies-technology.flutters { justify-content:center; }
+
+/*--------------------------------------------------------------
+# Our Case Studies Page
+--------------------------------------------------------------*/
+.tagline {font-size: 18px; margin:10px 0px 15px 0px; }
+.project-benefits { margin-top: 30px; }
+.challenges-images { margin-top: 20px; }
+.project-benefits li { font-size: 15px; line-height: 22px; }
+.project-logo img { width: 70px; }
+.project-logo { top: -10px; }
+.project-services ul li { text-align:center; }
+.brief-book { text-align:center; }
+.project-services { text-align:center; }
+.main-titles.project-services h4 { margin-top: 15px; font-size: 22px; }
+.project-services-img { margin-top: 30px; }
+.project-benefits h3 { font-size: 22px; margin-bottom: 15px; text-align: center; }
+
+.results-achieved .main-titles { text-align:center; }
+.achieved-image { margin-top: 22px; }
+.challenges-images .tagline { text-align:center; }
+
+
+/*--------------------------------------------------------------
+# Dedicated Team Page
+--------------------------------------------------------------*/
+.our-hiring-boxs { padding: 15px 10px;  margin-top: 15px; }
+.our-hiring-boxs h4 { font-size: 18px; }
+.working-days p { font-size: 14px; }
+
+.fact-boxs { margin-top: 15px; }
+.fact-boxs p span {font-size: 24px; }
+.fact-boxs h4 { font-size: 14px; margin-bottom: 5px; line-height: 20px; }
+
+
+}
+/*landscape phones, 768px and up End*/
+
+
+@media (max-width:767.98px) { 
+.onload-page-modal{ display:none !important; }
+
+/*Mobile modal popup*/
+.onload-page-modal-mobile { display:block !important; visibility: hidden; }
+.modal-open .modal.onload-page-modal-mobile { visibility:visible; }
+
+ }
+
+
+
+/*  tablets, 992px and up Start*/
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+section{ padding:40px 0px }
+h2 { font-size: 26px; line-height: 34px; }
+P { font-size:15px; }
+
+.common-buttons-fill { font-size: 14px; padding: 7px 20px;  margin: 6px 0px 15px 0px; }
+
+/*--------------------------------------------------------------
+# banner Parts
+--------------------------------------------------------------*/
+.main-banner-titles { padding-left:0px;}
+
+.main-banner-titles h1 {
+  margin-bottom: 15px;
+  line-height: 48px;
+  font-size: 42px;
+}
+
+.banner-top-titles {
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.main-banner-titles h1 span {
+  font-size: 26px;
+  line-height: 36px;
+  margin-top: 6px;
+}
+
+
+
+/*--------------------------------------------------------------
+# Our Services Parts
+--------------------------------------------------------------*/
+.services-boxs { margin-top:15px; margin-bottom: 15px; padding: 20px 10px 30px 10px; }
+.services-icons img { width:48px; }
+h3.services-titles a {  font-size: 16px; padding: 10px 0px 8px 0px; line-height:22px; }
+.services-boxs p { font-size:14px; }
+
+.services-boxs-arrow { bottom: -17px; }
+.services-boxs-arrow a { height: 34px; width: 34px; }
+
+/*--------------------------------------------------------------
+# We Work With Technologies Parts
+--------------------------------------------------------------*/
+.technologies-tabs-main { margin-top:10px; margin-bottom: 5px; }
+.nav-tabs.techno-tabs { gap: 15px; }
+.nav-tabs.techno-tabs .nav-link { font-size:15px; padding: 0px 0px 2px 0px; }
+
+.technologies-tab-box { margin-top: 20px; }
+.technologies-tab-box a span img{ width:40px;}
+.technologies-tab-box a { padding: 14px 10px; font-size: 15px; }
+.technologies-tab-box a span { margin-bottom:10px; }
+
+/*--------------------------------------------------------------
+# Our Project Development Process Parts
+--------------------------------------------------------------*/
+.process-image {  margin-top: 5px; }
+.process-image img { width: 320px; }
+.project-process-main {  text-align: center; }
+.process-icons { width: 48px; height: 48px;  font-size:24px; margin: 0 auto; }
+.project-process-main h3 { font-size: 18px; padding: 8px 0px 5px 0px; }
+.project-process-main { padding:20px 12px; } 
+.project-process-main p { font-size:14px; }  
+
+/*--------------------------------------------------------------
+# Engagement Models Parts
+--------------------------------------------------------------*/
+.engagement-models-box{ padding: 20px 15px; }
+.model-icons img { width: 48px; }
+.engagement-models-box h3 { font-size: 20px; padding: 10px 0px 8px 0px; line-height: 24px; }
+.engagement-models-box p { font-size:14px; }
+
+
+/*--------------------------------------------------------------
+# Our Recent Work Parts
+--------------------------------------------------------------*/
+.portfolio .portfolio-wrap .portfolio-info { padding: 15px 10px; }
+.portfolio-isotope .portfolio-container .portfolio-item { margin-bottom: 15px; }
+.portfolio .portfolio-wrap .portfolio-info h4 { font-size: 16px; }
+
+.buttons-outline { font-size: 15px; margin: 6px 0px 15px 0px;  padding: 7px 20px; }
+
+.portfolio .portfolio-flters li {  font-size: 14px; margin: 2px 2px 2px 2px; }
+.portfolio .portfolio-flters { padding: 20px 0 20px 0; }
+
+/*--------------------------------------------------------------
+# Industries We Serve Parts
+--------------------------------------------------------------*/
+.cust-col {  max-width:100%; }
+.industries-box h4 { font-size: 15px; }
+.industries-box { padding: 15px 6px; }
+
+/*--------------------------------------------------------------
+# Our Awards App Maintenance & Support
+&amp; Honors Parts
+--------------------------------------------------------------*/
+.our-awards-box { margin-top: 15px; }
+.our-awards-box a { padding: 10px 10px; }
+.our-awards-box a img { width:80px; }
+
+/*--------------------------------------------------------------
+# Our Happy Clients Parts
+--------------------------------------------------------------*/
+.clients-videos {margin-top: 10px;}
+.client-name h5 { font-size: 16px; }
+
+
+/*--------------------------------------------------------------
+# Our Blogs Parts
+--------------------------------------------------------------*/
+.blog-box-main { margin-top: 15px; }
+.blog-list-details { padding: 15px 15px 20px 15px; text-align: center; }
+.blog-list-details a { padding: 4px 0px 5px 0px; }
+.blog-list-details h6 {font-size: 16px; }
+
+.blog-list-images img { width: 100%; }
+
+
+/*--------------------------------------------------------------
+# Contact Us Parts
+--------------------------------------------------------------*/
+.contact-forms-main { padding:15px; margin-top: 15px; }
+.form-titles h3 { font-size: 20px; margin-bottom: 15px; text-align: center; }
+.contact-forms .form-group { margin-bottom: 12px; }
+
+
+.contact-us-img {border-radius: 10px; margin-right: 0; margin: 20px auto 0; }
+.textarea-heights {  min-height: 70px; }
+
+
+/*Inner Pages CSS Start*/
+
+/*--------------------------------------------------------------
+# ui/ux Development Pages
+--------------------------------------------------------------*/
+/*Banner*/
+.services-banner-titles h1 { line-height:48px; font-size:38px; }
+.services-banner-titles p { font-size:16px;}
+
+.welcome-main-img img { width: 300px; }
+ 
+/*Our Process UI/UX */
+.main-titles.process-sticky { margin-bottom: 15px; }
+.services-process-box { padding: 24px; margin-bottom: 20px; }
+.services-process-box h3 { font-size: 22px; }
+.services-process-box h3::before { left: -10px; height: 28px; width: 28px; }
+
+.benefits-lists ul li { margin-bottom: 10px; }
+.benefits-images img { width: 300px; }
+
+/*UI/UX Design */
+
+.development-boxs {padding: 20px; margin-top: 20px;}
+.development-boxs h4 { font-size: 22px; line-height: 28px;}
+
+/*FAQs Questions */
+.accordion-develop .card { margin-top: 15px; }
+.accordion-develop { margin-top: 10px; }
+.accordion-header a h6 {font-size: 15px; }
+.accordion-header a { padding: 12px 25px 12px 15px; }
+.accordion-header a::after {
+  font-size: 18px; right: 10px; }
+.accordion-develop .card-body p { line-height: 22px; font-size: 14px; }  
+.business-line ul li { line-height:20px; }
+
+ .our-faqs-questions { padding-bottom:100px; }
+
+/*Schedule Meeting*/
+.schedule-meeting { bottom: 55px; }
+.schedule-meeting-main { padding:30px 30px 26px 30px; }
+.schedule-meeting-main h3 { font-size: 30px; line-height: 26px; }
+.schedule-meeting-main p {  padding: 15px 0px 15px 0px; line-height: 22px;}
+.common-buttons-white { font-size: 15px; padding: 6px 20px; }
+
+/*Game Design Page*/
+/*--------------------------------------------------------------
+# Top Game Design Services Pages
+--------------------------------------------------------------*/
+.technologies-tab-box.game-designs a h4{ font-size:16px; line-height:24px; }
+
+
+/* Hire Pages Developers */
+/*--------------------------------------------------------------
+# Hire Fullstack Developer Pages
+--------------------------------------------------------------*/
+.hire-dedicateds h3 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+
+/* Contact Us Pages */
+/*--------------------------------------------------------------
+# Drop us a line to Start a Project with us
+--------------------------------------------------------------*/
+.main-banner-titles h1.banner-main-titles { margin-top: 20px; margin-bottom: 15px; line-height:40px; font-size:32px; }
+.contact-links {  padding: 20px 0px; }
+.rightside-links a { font-size: 18px; }
+.leftside-icons {  font-size:24px;  width:40px; text-align: left; }
+.rightside-links a span.contact-arrow { margin-left: 5px; font-size: 14px; }
+
+.our-offices-address h4 {font-size: 24px; }
+.our-offices-address p { padding: 5px 0px 6px 0px; }
+
+
+
+/* Careers Pages */
+/*--------------------------------------------------------------
+# Get more than just a Jobs
+--------------------------------------------------------------*/
+.benefits-titles.bestbrands { font-size: 62px; line-height: 58px; margin-bottom: 10px; }
+.vacancy-softsource a.jobtab { font-size: 18px; padding: 15px 60px 15px 20px; }
+.teamwork-only { margin-top: 20px; }
+.image-gallery-box { margin-top: 20px; }
+
+/*--------------------------------------------------------------
+# Careers Registration Page
+--------------------------------------------------------------*/
+.registration-main { padding: 30px; }
+
+
+/* Thank you Pages */
+/*--------------------------------------------------------------
+# Thank you Parts
+--------------------------------------------------------------*/
+.thankyou-banner-titles h1 { margin-bottom: 10px; line-height: 32px; font-size: 36px;
+    font-weight: 700; }
+.center-checkicons img { width:80px; }
+
+
+/*--------------------------------------------------------------
+# About Us Pages
+--------------------------------------------------------------*/
+.model-icons.leaders img { width: 100%; }
+.leaders-souece { padding: 20px; }
+.softsouece-amet { font-size: 18px; line-height: 26px; }
+.leaders-souece h5 { margin-top: 20px; font-size: 22px; }
+
+.counter { margin-top: 30px; }
+.counter-count { font-size: 52px; line-height: 70px; }
+.services-process-box h3 { line-height: 30px; }
+.hire-dedicateds {  margin-top: 15px; }
+
+
+/*--------------------------------------------------------------
+# 404 Error Page
+--------------------------------------------------------------*/
+.error-page-img404 img { width: 240px; }
+.error-page-banner .callplease { font-size: 36px; margin-top: 10px; }
+.requested { font-size: 18px; padding:5px 0px 15px 0px; }
+
+
+/*--------------------------------------------------------------
+# Our Works Page
+--------------------------------------------------------------*/
+.ourworks-main { padding: 20px 20px 0px 0px; }
+.ourworks-description { padding: 0px 0px 20px 20px; }
+.ourworks-description h2 { font-size: 24px; line-height: 32px; }
+.project-description { padding: 15px; margin-top: 15px; }
+.founder-names h3 {font-size: 16px; line-height: 22px; }
+.founder-image img { width: 50px; }
+.project-description p { line-height:22px; font-weight:400; }
+
+/*--------------------------------------------------------------
+# Our Works Details Page
+--------------------------------------------------------------*/
+.next-project-info h2 { font-size: 32px; line-height:60px; }
+.project-details p {  font-size: 24px; line-height: 36px; margin-top: 20px; }
+.used-technologies ul li a { padding: 3px 10px; font-size: 12px; }
+.our-work-next-project { height: 280px; }
+.next-project-info .separator { margin: 15px auto 20px auto; }
+.next-project-info h3 { font-size: 22px; }
+
+.swiper-button-prev.slide-arrow-left, .swiper-button-next.slide-arrow-right { width:32px; height:32px; font-size:15px;  }
+.swiper-button-prev.slide-arrow-left i {top: -1px; left: -1px; }
+.swiper-button-next.slide-arrow-right i { top: -1px; right: -1px; }
+
+
+/*--------------------------------------------------------------
+# Blog main Page
+--------------------------------------------------------------*/
+.blog-list-detail h2 {font-size: 18px; line-height: 24px; }
+
+.our-blog-list-box { margin-top: 40px; }
+.our-blog-list-box h2 { font-size: 16px; line-height: 22px; }
+.blog-navigation { margin-top:30px; }
+
+.blog-navigation ul.pagination {gap: 10px; }
+.blog-navigation ul.pagination li a { font-size: 20px; padding: 5px 12px; }
+
+
+/*--------------------------------------------------------------
+# Blog main Page
+--------------------------------------------------------------*/
+.services-banner-titles.blog-top-titles h1 { line-height: 42px; font-size: 32px; }
+.back-btns { top: -15px; }
+.back-btns a {height: 60px; width: 60px; font-size: 13px; }
+.back-btns a span { padding-right: 4px; font-size: 15px; } 
+
+.blog-description-list h2 {font-size: 26px; line-height: 30px; }
+.blog-description-list { margin-bottom: 15px; }
+.blog-description-list h3 { font-size: 18px;  line-height: 24px; margin-top: 12px; }
+
+
+/*--------------------------------------------------------------
+# Our Case Studies Page
+--------------------------------------------------------------*/
+.tagline {font-size: 20px; margin:10px 0px 15px 0px; }
+.project-benefits { margin-top: 30px; }
+.challenges-images { margin-top: 30px; }
+.project-benefits li { font-size: 15px; line-height: 22px; }
+.project-services-img { margin-top: 30px; }
+
+
+/*--------------------------------------------------------------
+# Dedicated Team Page
+--------------------------------------------------------------*/
+.our-hiring-boxs { padding: 15px 10px;  margin-top: 15px; }
+.our-hiring-boxs h4 { font-size: 18px; }
+.working-days p { font-size: 13px; }
+
+.fact-boxs { margin-top:25px; }
+.fact-boxs p span {font-size: 24px; }
+.fact-boxs h4 { font-size: 14px; margin-bottom: 5px; line-height: 20px; }
+
+
+/*--------------------------------------------------------------
+# Modal Popup On Load Page
+--------------------------------------------------------------*/
+.modal-dialog.onloadmodal-main{ max-width:730px }
+.modal-popup-footer ul li a {color: #fff; font-size: 14px; }
+
+.popup-services ul li { line-height:22px; margin-bottom:6px; }
+
+
+
+  }
+/*  tablets, 992px and up End*/
+
+
+/*desktops, 1200px and up Start*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+section{ padding:50px 0px }
+h2 { font-size:30px; line-height:36px; }
+P { font-size:15px; }
+
+.common-buttons-fill { font-size: 15px; padding:8px 25px;  margin: 6px 0px 15px 0px; }
+
+/*--------------------------------------------------------------
+# banner Parts
+--------------------------------------------------------------*/
+.main-banner-titles { padding-left:0px;}
+
+.main-banner-titles h1 {
+  margin-bottom: 15px;
+  line-height: 52px;
+  font-size: 46px;
+}
+
+.banner-top-titles {
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.main-banner-titles h1 span {
+  font-size: 28px;
+  line-height: 36px;
+  margin-top: 8px;
+}
+
+/*--------------------------------------------------------------
+# welcome Parts
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# Our Services Parts
+--------------------------------------------------------------*/
+.services-boxs { margin-top:15px; margin-bottom: 15px; padding: 20px 10px 30px 10px; }
+.services-icons img { width:54px; }
+h3.services-titles a {  font-size: 18px; padding: 10px 0px 8px 0px; line-height:22px; }
+.services-boxs p { font-size:14px; }
+
+.services-boxs-arrow { bottom: -17px; }
+.services-boxs-arrow a { height: 34px; width: 34px; }
+
+/*--------------------------------------------------------------
+# We Work With Technologies Parts
+--------------------------------------------------------------*/
+.technologies-tabs-main { margin-top:10px; margin-bottom: 5px; }
+.nav-tabs.techno-tabs { gap: 15px; }
+.nav-tabs.techno-tabs .nav-link { font-size:15px; padding: 0px 0px 2px 0px; }
+
+.technologies-tab-box { margin-top: 20px; }
+.technologies-tab-box a span img{ width:40px;}
+.technologies-tab-box a { padding: 14px 10px; font-size: 15px; }
+.technologies-tab-box a span { margin-bottom:10px; }
+
+/*--------------------------------------------------------------
+# Our Project Development Process Parts
+--------------------------------------------------------------*/
+.project-process-main {  text-align: center; }
+.process-icons { width: 48px; height: 48px;  font-size:24px; margin: 0 auto; }
+.project-process-main h3 { font-size: 20px; padding: 10px 10px 10px 10px; }
+.project-process-main { padding:20px 12px; } 
+.project-process-main p { font-size:15px; }  
+
+/*--------------------------------------------------------------
+# Engagement Models Parts
+--------------------------------------------------------------*/
+.engagement-models-box{ padding:25px 15px; }
+.model-icons img { width: 56px; }
+.engagement-models-box h3 { font-size: 20px; line-height: 24px; }
+.engagement-models-box p { font-size:15px; }
+
+/*--------------------------------------------------------------
+# Our Recent Work Parts
+--------------------------------------------------------------*/
+.portfolio .portfolio-wrap .portfolio-info { padding: 15px 10px; }
+.portfolio-isotope .portfolio-container .portfolio-item { margin-bottom: 15px; }
+.portfolio .portfolio-wrap .portfolio-info h4 { font-size: 16px; }
+
+.portfolio .portfolio-flters li {  font-size: 15px; margin: 2px 2px 2px 2px; }
+.portfolio .portfolio-flters { padding: 20px 0 20px 0; }
+
+/*--------------------------------------------------------------
+# Industries We Serve Parts
+--------------------------------------------------------------*/
+.cust-col {  max-width:100%; }
+.industries-box h4 { font-size: 16px; }
+.industries-box { padding: 15px 6px; }
+
+/*--------------------------------------------------------------
+# Our Awards App Maintenance & Support
+&amp; Honors Parts
+--------------------------------------------------------------*/
+.our-awards-box { margin-top: 15px; }
+.our-awards-box a { padding: 10px 10px; }
+.our-awards-box a img { width:80px; }
+
+/*--------------------------------------------------------------
+# Our Happy Clients Parts
+--------------------------------------------------------------*/
+.clients-videos {margin-top: 10px;}
+.client-name h5 { font-size: 16px; }
+
+
+/*--------------------------------------------------------------
+# Our Blogs Parts
+--------------------------------------------------------------*/
+.blog-box-main { margin-top: 15px; }
+.blog-list-details { padding: 15px 15px 20px 15px; }
+.blog-list-details a { padding: 4px 0px 5px 0px; }
+.blog-list-details h6 {font-size: 16px; }
+
+.blog-list-images img { width: 100%; }
+
+
+/*--------------------------------------------------------------
+# Contact Us Parts
+--------------------------------------------------------------*/
+.contact-forms-main { padding:15px; margin-top: 15px; }
+.form-titles h3 { font-size: 20px; margin-bottom: 15px;  }
+.contact-forms .form-group { margin-bottom: 12px; }
+
+
+.contact-us-img {border-radius: 10px; margin-right: 0; margin: 20px auto 0; }
+.textarea-heights {  min-height: 70px; }
+
+
+/*Inner Pages CSS Start*/
+
+/*--------------------------------------------------------------
+# ui/ux Development Pages
+--------------------------------------------------------------*/
+/*Banner*/
+.services-banner-titles h1 { line-height:56px; font-size:46px; }
+.services-banner-titles p { font-size:16px;}
+
+.welcome-main-img img { width: 370px; }
+ 
+/*Our Process UI/UX */
+.main-titles.process-sticky { margin-bottom: 15px; }
+.services-process-box { padding: 24px; margin-bottom: 20px; }
+.services-process-box h3 { font-size: 22px; }
+.services-process-box h3::before { left: -10px; height: 28px; width: 28px; }
+
+.benefits-lists ul li { margin-bottom: 10px; }
+.benefits-images img { width: 370px; }
+
+/*UI/UX Design */
+
+.development-boxs {padding: 25px;}
+.development-boxs h4 { font-size: 22px; line-height: 28px;}
+
+/*FAQs Questions */
+.accordion-develop .card { margin-top: 15px; }
+.accordion-develop { margin-top: 10px; }
+.accordion-header a h6 {font-size: 16px; }
+.accordion-header a { padding: 15px 25px 15px 15px; }
+.accordion-header a::after {
+  font-size: 18px; right: 10px; }
+.accordion-develop .card-body p { line-height: 22px; font-size: 14px; }  
+.business-line ul li { line-height:20px; }
+
+ .our-faqs-questions { padding-bottom:100px; }
+
+/*Schedule Meeting*/
+.schedule-meeting { bottom: 55px; }
+.schedule-meeting-main { padding:30px 30px 26px 30px; }
+.schedule-meeting-main h3 { font-size: 32px; line-height: 26px; }
+.schedule-meeting-main p {  padding: 15px 0px 15px 0px; line-height: 22px;}
+.common-buttons-white { font-size: 15px; padding: 6px 20px; }
+
+
+/*Game Design Page*/
+/*--------------------------------------------------------------
+# Top Game Design Services Pages
+--------------------------------------------------------------*/
+.technologies-tab-box.game-designs a h4{ font-size:18px; line-height:24px; }
+
+
+
+/* Hire Pages Developers */
+/*--------------------------------------------------------------
+# Hire Fullstack Developer Pages
+--------------------------------------------------------------*/
+.hire-dedicateds h3 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+
+/* Contact Us Pages */
+/*--------------------------------------------------------------
+# Drop us a line to Start a Project with us
+--------------------------------------------------------------*/
+.main-banner-titles h1.banner-main-titles { margin-top: 20px; margin-bottom: 15px; line-height:44px; font-size:36px; }
+.contact-links {  padding: 20px 10px; }
+.rightside-links a { font-size: 20px; }
+.leftside-icons {  font-size:30px;  width: 70px; }
+
+
+
+/*--------------------------------------------------------------
+# About Us Pages
+--------------------------------------------------------------*/
+.model-icons.leaders img { width: 100%; }
+
+
+/*--------------------------------------------------------------
+# 404 Error Page
+--------------------------------------------------------------*/
+.error-page-img404 img { width: 280px; }
+.error-page-banner .callplease { font-size: 38px; }
+.requested { font-size: 18px; padding:5px 0px 15px 0px; }
+
+
+/*--------------------------------------------------------------
+# Our Works Details Page
+--------------------------------------------------------------*/
+.swiper-button-prev.slide-arrow-left, .swiper-button-next.slide-arrow-right { width:38px; height:38px; font-size:18px;  }
+.swiper-button-prev.slide-arrow-left i {top: -1px; left: -1px; }
+.swiper-button-next.slide-arrow-right i { top: -1px; right: -1px; }
+
+
+/*--------------------------------------------------------------
+# Blog main Page
+--------------------------------------------------------------*/
+.our-blog-list-box { margin-top: 40px; }
+.our-blog-list-box h2 { font-size: 18px; line-height: 26px; }
+.blog-navigation { margin-top: 40px; }
+
+/*--------------------------------------------------------------
+# Our Case Studies Page
+--------------------------------------------------------------*/
+.tagline {font-size: 20px; margin:10px 0px 15px 0px; }
+
+/*--------------------------------------------------------------
+# Dedicated Team Page
+--------------------------------------------------------------*/
+.our-hiring-boxs { padding: 15px 10px;  margin-top: 15px; }
+.working-days p { font-size: 13px; }
+
+
+.fact-boxs p span {font-size: 26px; }
+.fact-boxs h4 { font-size: 14px; margin-bottom: 5px; }
+
+
+
+
+
+  }
+ /*desktops, 1200px and up End*/
+
+
+/*large desktops, 1369px and up Start*/
+
+@media (min-width: 1200px) and (max-width: 1369.98px) {  
+
+section{ padding:60px 0px }
+
+/*--------------------------------------------------------------
+# banner Parts
+--------------------------------------------------------------*/
+.main-banner-titles { padding-left: 30px; }
+
+/*Inner Pages CSS Start*/
+/*Banner*/
+.services-banner-titles h1 { line-height:62px; font-size:48px; }
+.services-banner-titles p { font-size:16px;}
+
+
+}
+
+ /*large desktops, 1369px and up End*/
