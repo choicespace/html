@@ -1573,7 +1573,6 @@ width:15px;
 /*--------------------------------------------------------------
 # Modal Popup On Load mobile Page
 --------------------------------------------------------------*/
-.onload-page-modal-mobile {display:none !important; }
 
 .modal-header.modal-top.mobiles .close { font-size: 34px; height: 32px; width: 32px; }
 .modal-dialog.onloadmodal-mobile { max-width:310px; margin: 0 auto; }
@@ -1612,6 +1611,190 @@ background: #2e3c56; height:46px; width:46px; border-radius: 100px; color: #fff;
 .uiux-page-works .swiper-button-next.slide-arrow-right:hover, .uiux-page-works .swiper-button-next.slide-arrow-right:focus{ background: #0da4ca; }
 
 
+/*--------------------------------------------------------------
+# Technolody Pages CSS
+--------------------------------------------------------------*/
+
+.common-buttons-fill.btnwithspan {margin-top:20px; text-align:center; border-radius: 10px; font-size: 30px; line-height: 36px; 
+  font-weight:800; padding: 20px 30px; transition: all .4s ease-in-out 0s !important;
+  background: rgb(27,117,140); background: linear-gradient(90deg, rgba(27,117,140,1) 0%, rgba(22,180,220,1) 100%); }
+.common-buttons-fill.btnwithspan span { display:block; font-size:16px; font-weight:400; }
 
 
+.contents-sliders.swiper {  margin-top: 50px; padding-bottom:60px; }
 
+.slider-contents h3 {
+    color: #252B33;
+    font-size:22px;
+    line-height: 30px;
+    font-weight:800;
+    margin-bottom: 15px;
+}
+
+.slider-contents p {
+ font-weight: 400;
+ margin-top:10px;
+}
+
+.slides-technology .swiper-pagination-bullet { width: 11px; height: 11px; }
+.slides-technology .swiper-pagination-bullet-active { background: #0fa3c8; }
+
+.common-buttons-fill.hirenow-btns.industries { border-radius: 10px; text-align: center; margin-top: 40px; }
+
+
+/*--------------------------------------------------------------
+# Hire Button animation CSS
+--------------------------------------------------------------*/
+
+.btnwithspan {
+  animation: shadow-pulse 1.5s infinite;
+}
+
+.btnwithspan:hover, .btnwithspan:focus {
+  animation: shadow-pulse-hover 1.5s infinite;
+}
+
+
+@keyframes shadow-pulse
+{
+  0% {
+    box-shadow: 0 0 0 0px rgba(15, 163, 200, 0.8);
+    
+  }
+  100% {
+    box-shadow: 0 0 6px 25px rgba(15, 163, 200, 0);
+    
+  }
+}
+
+@keyframes shadow-pulse-hover
+{
+  0% {
+    box-shadow: 0 0 0 0px rgba(15, 163, 200, 0.8);
+    
+  }
+  100% {
+    box-shadow: 0 0 0px 0px rgba(15, 163, 200, 0);
+    
+  }
+}
+
+
+/*Teamwork and for us Team*/
+
+.all-team-members{ position:relative; }
+.all-team-container { background: #000; margin-top:30px; }
+.all-member-pictures { display: flex;  flex-wrap: wrap; }
+.team-member-pictures {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  background-color: #000000;
+  width:10%;
+  line-height: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.team-member-pictures img {
+  opacity: 0.4;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  -webkit-filter: grayscale(95%);
+  filter: grayscale(95%);
+  -webkit-opacity: 0.4;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.team-member-pictures:hover img {
+  opacity: 1;
+  z-index: 0;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.team-member-pictures span {
+  font-family: "Poppins", sans-serif;
+  font-weight:500;
+  color: #fff;
+  font-size: 12px;
+  line-height:16px;
+  background: rgba(15, 163, 200, 0.7);
+  padding: 1px 5px;
+  position: absolute;
+  left: auto;
+  right: auto;
+  bottom: 0px;
+  z-index: 100;
+  display: none;
+  text-transform: capitalize;
+}
+.team-member-pictures:hover span {
+  display: inline-block;
+}
+
+@media (max-width: 767.98px) { 
+.team-member-pictures { width:20%; }
+.team-member-pictures span { font-size:10px; }
+
+}
+
+
+/*Portfolio page date-20-01-2024*/
+
+.our-work-slider-portfolio .swiper-slide{ max-width:1140px; margin: 0px 10px;}
+.works-main-section .container-fluid { padding:0px; margin:20px 0 0 0; overflow:hidden; }
+.container-fluid .our-work-slider-portfolio {  max-width:1140px;  margin: auto auto 40px auto;  touch-action: pan-y; position: relative; }
+.slides-technology02 .swiper-slide{width: 1140px !important; margin: 0px 10px;}
+.ourworks-main.worksliders{ display:flex; }
+.worksliders .ourworks-description { width:50%; display: flex; flex-direction: column; justify-content: center; }
+.worksliders .ourworks-image { width:50%; }
+
+.works-main-section .container-fluid .swiper-pagination { bottom:-45px; }
+
+.our-work-slider-portfolio .swiper-pagination-bullet {
+  width: 11px;  height: 11px; }
+  .our-work-slider-portfolio .swiper-pagination-bullet-active {
+    background: #0fa3c8; }
+
+
+    @media (max-width: 575.98px) {
+      .works-main-section .container-fluid {padding: 0px 20px !important; }
+      .our-work-slider-portfolio .swiper-slide { margin: 0px 5px !important; }
+
+    }
+
+    @media (max-width: 767.98px) {
+     .works-main-section .container-fluid {padding: 0px 50px; }
+     .our-work-slider-portfolio .swiper-slide { margin: 0px 10px; }
+     .ourworks-main.worksliders { display: block; }
+     .worksliders .ourworks-description { width:100%; }
+     .worksliders .ourworks-image { width:100%; }
+
+   }
+
+   @media (min-width: 768px) and (max-width: 991.98px) {
+     .works-main-section .container-fluid {padding: 0px 30px; }
+     .our-work-slider-portfolio .swiper-slide { margin: 0px 10px; }
+     .worksliders .ourworks-description { padding: 0px 20px 20px 20px; }
+
+   }
+
+   @media (min-width: 992px) and (max-width: 1199.98px) { 
+
+     .works-main-section .container-fluid {padding: 0px 40px; }
+     .our-work-slider-portfolio .swiper-slide { margin: 0px 10px; }
+     .worksliders .ourworks-description { padding: 0px 20px 20px 20px; }
+
+   }
+
+   @media (min-width: 1200px) and (max-width: 1359.98px) { 
+    .works-main-section .container-fluid {padding: 0px 50px; }
+    .our-work-slider-portfolio .swiper-slide { margin: 0px 10px; }
+    .worksliders .ourworks-description { padding: 0px 20px 20px 20px; }
+    
+  }

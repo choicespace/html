@@ -1,10 +1,7 @@
 /**
-* Template Name: Impact
-* Updated: Sep 18 2023 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/impact-bootstrap-business-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+* Template Name: SoftSource Technolabs
 */
+
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
 
@@ -148,6 +145,25 @@ document.addEventListener('DOMContentLoaded', () => {
    */
   new PureCounter();
 
+
+  // Work Main top Slider
+        new Swiper(".our-work-slider-portfolio", {
+         centeredSlides: true,
+         loop: true,
+         loopedSlides: 0,
+         slidesPerView: "auto",
+         spaceBetween: 0,
+         speed: 600,
+         mousewheel: {
+          sensitivity:2,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});
+
+
   /**
    * Clients Slider
    */
@@ -180,6 +196,42 @@ document.addEventListener('DOMContentLoaded', () => {
       992: {
         slidesPerView: 6,
         spaceBetween: 120
+      }
+    }
+  });
+
+    /**
+   * Init swiper slider with 1 slide at once in desktop view
+   */
+  new Swiper('.our-work-slides', {
+    speed: 600,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'true',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 40
+      },
+
+       576: {
+        slidesPerView:1,
+      },
+
+      1200: {
+        slidesPerView:2,
       }
     }
   });
@@ -238,6 +290,36 @@ document.addEventListener('DOMContentLoaded', () => {
 
       1200: {
         slidesPerView: 3,
+      }
+    }
+  });
+
+/**
+   * technology Sliders
+   */
+   new Swiper('.slides-technology', {
+    speed:800,
+   mousewheel: {
+        sensitivity: 2,
+        },
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    },
+  
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 40
+      },
+
+       576: {
+        slidesPerView: 1,
+      },
+
+      1200: {
+        slidesPerView: 1,
       }
     }
   });

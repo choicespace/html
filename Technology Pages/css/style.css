@@ -1573,7 +1573,6 @@ width:15px;
 /*--------------------------------------------------------------
 # Modal Popup On Load mobile Page
 --------------------------------------------------------------*/
-.modal-body.modals-main.mobile-body { display: none; }
 
 .modal-header.modal-top.mobiles .close { font-size: 34px; height: 32px; width: 32px; }
 .modal-dialog.onloadmodal-mobile { max-width:310px; margin: 0 auto; }
@@ -1743,3 +1742,59 @@ background: #2e3c56; height:46px; width:46px; border-radius: 100px; color: #fff;
 .team-member-pictures span { font-size:10px; }
 
 }
+
+
+/*Portfolio page date-20-01-2024*/
+
+.our-work-slider-portfolio .swiper-slide{ max-width:1140px; margin: 0px 10px;}
+.works-main-section .container-fluid { padding:0px; margin:20px 0 0 0; overflow:hidden; }
+.container-fluid .our-work-slider-portfolio {  max-width:1140px;  margin: auto auto 40px auto;  touch-action: pan-y; position: relative; }
+.slides-technology02 .swiper-slide{width: 1140px !important; margin: 0px 10px;}
+.ourworks-main.worksliders{ display:flex; }
+.worksliders .ourworks-description { width:50%; display: flex; flex-direction: column; justify-content: center; }
+.worksliders .ourworks-image { width:50%; }
+
+.works-main-section .container-fluid .swiper-pagination { bottom:-45px; }
+
+.our-work-slider-portfolio .swiper-pagination-bullet {
+  width: 11px;  height: 11px; }
+  .our-work-slider-portfolio .swiper-pagination-bullet-active {
+    background: #0fa3c8; }
+
+
+    @media (max-width: 575.98px) {
+      .works-main-section .container-fluid {padding: 0px 20px !important; }
+      .our-work-slider-portfolio .swiper-slide { margin: 0px 5px !important; }
+
+    }
+
+    @media (max-width: 767.98px) {
+     .works-main-section .container-fluid {padding: 0px 50px; }
+     .our-work-slider-portfolio .swiper-slide { margin: 0px 10px; }
+     .ourworks-main.worksliders { display: block; }
+     .worksliders .ourworks-description { width:100%; }
+     .worksliders .ourworks-image { width:100%; }
+
+   }
+
+   @media (min-width: 768px) and (max-width: 991.98px) {
+     .works-main-section .container-fluid {padding: 0px 30px; }
+     .our-work-slider-portfolio .swiper-slide { margin: 0px 10px; }
+     .worksliders .ourworks-description { padding: 0px 20px 20px 20px; }
+
+   }
+
+   @media (min-width: 992px) and (max-width: 1199.98px) { 
+
+     .works-main-section .container-fluid {padding: 0px 40px; }
+     .our-work-slider-portfolio .swiper-slide { margin: 0px 10px; }
+     .worksliders .ourworks-description { padding: 0px 20px 20px 20px; }
+
+   }
+
+   @media (min-width: 1200px) and (max-width: 1359.98px) { 
+    .works-main-section .container-fluid {padding: 0px 50px; }
+    .our-work-slider-portfolio .swiper-slide { margin: 0px 10px; }
+    .worksliders .ourworks-description { padding: 0px 20px 20px 20px; }
+    
+  }

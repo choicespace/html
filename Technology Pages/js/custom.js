@@ -145,6 +145,25 @@ document.addEventListener('DOMContentLoaded', () => {
    */
   new PureCounter();
 
+
+  // Work Main top Slider
+        new Swiper(".our-work-slider-portfolio", {
+         centeredSlides: true,
+         loop: true,
+         loopedSlides: 0,
+         slidesPerView: "auto",
+         spaceBetween: 0,
+         speed: 600,
+         mousewheel: {
+          sensitivity:2,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});
+
+
   /**
    * Clients Slider
    */
